@@ -1,0 +1,84 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Permanent Marker', cursive;
+  background-color: #0054a6;
+}
+
+.header {
+  background-color: #333;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.nav li {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.jumbotron {
+  height: 300px;
+  background-color: #ff4814;
+  background-image: url('');
+  background-repeat: no-repeat;
+}
+
+.main {
+  position: relative;
+  top: 65px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.btn-main {
+  background-color: #0054a6;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.supporting img {
+  height: 100px;
+}
+
+.btn-default {
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 10px;
+  background-color: #ff4814;
+  text-decoration: none;
+}
